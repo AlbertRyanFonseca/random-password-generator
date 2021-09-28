@@ -1,5 +1,6 @@
 // Assignment code here
-
+userCharacters = prompt("How many characters do you want in your password? Please choose between 8-128 characters");
+console.log(userCharacters);
 
 // Get references to the #generate element
 var generateBtn = document.querySelector("#generate");
