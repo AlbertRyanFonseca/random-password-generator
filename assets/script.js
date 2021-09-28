@@ -1,14 +1,14 @@
 // Assignment code here
-userCharacters = prompt("How many characters do you want in your password? Please choose between 8-128 characters");
+function generatePassword() {
+  userCharacters = prompt("How many characters do you want in your password? Please choose between 8-128 characters");
 
-if (userCharacters < 8 || userCharacters > 128 || isNaN(userCharacters)) {
-  userCharacters = prompt("Please enter a number between 8-128");
-} else {
-  alert("Your password will be " + userCharacters + " characters long.");
+  if (userCharacters < 8 || userCharacters > 128 || isNaN(userCharacters)) {
+    userCharacters = prompt("Please enter a number between 8-128");
+  } else {
+    alert("Your password will be " + userCharacters + " characters long.");
+  }
+  console.log(userCharacters);
 }
-
-console.log(userCharacters);
-
 
 // Get references to the #generate element
 var generateBtn = document.querySelector("#generate");
