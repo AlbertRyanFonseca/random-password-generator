@@ -20,4 +20,8 @@ This site creates a random password based on user's answers. The application sta
 
 Created by Albert Fonseca. Starter code contains HTML and CSS from this repository: https://github.com/coding-boot-camp/friendly-parakeet
 
+## Page
+https://albertryanfonseca.github.io/random-password-generator/
+
+
 ![Random Password Generator](https://user-images.githubusercontent.com/82438047/135186306-fc323986-5838-42f5-a089-6d08376d8654.gif)
