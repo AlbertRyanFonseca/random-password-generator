@@ -7,7 +7,8 @@ This site creates a random password based on user's answers. The application sta
 ## Usage
 
 1) Go to the link of GitHub Pages.
-2) Click "Generate Password" button, answer questions that appear on top, then watch your random password generate in the dotted text box.
+2) Click "Generate Password" button, answer questions that appear on top.
+3) Watch your random password generate in the dotted text box.
 
 ## Built With
 
