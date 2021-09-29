@@ -60,6 +60,14 @@ function generatePassword() {
     everyChar = everyChar.concat(specialChar)
   }
 
+  let userPassword = ""
+
+  for (let i = 0; i < userCharacters; i++) {
+    let rpg = [(Math.random() * everyChar.length)];
+    userPassword += everyChar[rpg];
+  }
+
+  return userPassword;
 }
 
 // Get references to the #generate element
