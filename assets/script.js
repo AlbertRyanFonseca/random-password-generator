@@ -17,28 +17,28 @@ function generatePassword() {
 
   confirmLowercaseChar = confirm("Would you like to include lowercase characters?");
   if (confirmLowercaseChar) {
-    var mergeLowercase = alert("You have chose to include lowercase character(s)");
+    alert("You have chose to include lowercase character(s)");
   } else {
     alert("You have chose NOT to include any lowercase character.");
   }
 
   confirmCaptialChar = confirm("Would you like to include uppercase characters");
   if (confirmCaptialChar) {
-    var mergeCapitalChar = alert("You have chosen to include uppercase character(s).");
+    alert("You have chosen to include uppercase character(s).");
   } else {
     alert("You have chosen NOT to include any uppercase character.");
   }
 
   confirmNumberChar = confirm("Would you like to include numeric characters.");
   if (confirmNumberChar) {
-    var mergeNumberChar = alert("You have chosen to include number character(s).");
+    alert("You have chosen to include number character(s).");
   } else {
     alert("You have chosen NOT to include any number character");
   }
 
   confirmSpecialChar = confirm("Would you like to include special characters? i.e. @, *, &, etc.")
   if (confirmSpecialChar) {
-    var mergeSpecialChar = alert("You have chosen to include special character(s).")
+    alert("You have chosen to include special character(s).")
   } else {
     alert("You have chosen NOT to include any special character");
   }
@@ -63,7 +63,7 @@ function generatePassword() {
   let userPassword = ""
 
   for (let i = 0; i < userCharacters; i++) {
-    let rpg = [(Math.random() * everyChar.length)];
+    let rpg = [Math.floor(Math.random() * everyChar.length)];
     userPassword += everyChar[rpg];
   }
 
