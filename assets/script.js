@@ -46,6 +46,20 @@ function generatePassword() {
   if (confirmLowercaseChar === false && confirmCaptialChar === false && confirmNumberChar === false && confirmSpecialChar === false) {
     return ("Please select at least one character type for your password!");
   };
+
+  if (confirmLowercaseChar) {
+    everyChar = everyChar.concat(lowerChar);
+  }
+  if (confirmCaptialChar) {
+    everyChar = everyChar.concat(capitalChar)
+  }
+  if (confirmNumberChar) {
+    everyChar = everyChar.concat(specialChar)
+  }
+  if (confirmSpecialChar) {
+    everyChar = everyChar.concat(specialChar)
+  }
+
 }
 
 // Get references to the #generate element
